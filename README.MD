@@ -18,6 +18,19 @@ python3 main.py
 ```
 
 
+#### Search for coin in google search
+```python
+from src.scrapper import WebScrapper
+
+if __name__ == '__main__':
+    newWebScrapper = WebScrapper()
+    search = "bitcoin"
+    number_of_results = 10
+    newWebScrapper.search_for_google(search, number_of_results)
+```
+
+
+
 #### Get exact coin
 ```python
 from src.scrapper import WebScrapper
@@ -33,6 +46,7 @@ if __name__ == '__main__':
     print("Price: ", data[4])
     print("Circulating Supply: ", data[5]) 
 ```
+
 #### Get all loaded coins
 ```python
 from src.scrapper import WebScrapper
@@ -49,16 +63,6 @@ if __name__ == '__main__':
         print("Price: ", data[i][4])
         print("Circulating Supply: ", data[i][5])
         print("---------------------------------")
-```
-#### Search for coin in google search
-```python
-from src.scrapper import WebScrapper
-
-if __name__ == '__main__':
-    newWebScrapper = WebScrapper()
-    search = "bitcoin"
-    number_of_results = 10
-    newWebScrapper.search_for_google(search, number_of_results)
 ```
 
 ## Contributing
