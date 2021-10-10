@@ -25,7 +25,7 @@ sudo python main.py
 ```bash
 python main.py
 ```
-####Get exact coin
+#### Get exact coin
 ```python
 from src.scrapper import WebScrapper
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     print("Price: ", data[4])
     print("Circulating Supply: ", data[5]) 
 ```
-####Get all loaded coins
+#### Get all loaded coins
 ```python
 from src.scrapper import WebScrapper
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
         print("Circulating Supply: ", data[i][5])
         print("---------------------------------")
 ```
-####Search for coin in google search
+#### Search for coin in google search
 ```python
 from src.scrapper import WebScrapper
 
