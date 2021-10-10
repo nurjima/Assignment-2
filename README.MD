@@ -12,6 +12,10 @@ pip install requirements.txt
 
 ## Usage
 
+### MacOS 
+```python3 main.py
+```
+
 ### Linux 
 ```bash
 sudo python main.py
