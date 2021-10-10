@@ -13,7 +13,8 @@ pip install requirements.txt
 ## Usage
 
 ### MacOS 
-```python3 main.py
+```
+python3 main.py
 ```
 
 ### Linux 
