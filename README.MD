@@ -17,21 +17,14 @@ pip install requirements.txt
 python3 main.py
 ```
 
-### Linux 
-```bash
-sudo python main.py
-```
-### Windows 
-```bash
-python main.py
-```
+
 #### Get exact coin
 ```python
 from src.scrapper import WebScrapper
 
 if __name__ == '__main__':
     newScapper = WebScrapper()
-    data = newScapper.get_currency("BTC") #get exact coin with its symbol
+    data = newScapper.get_currency("ETH") #get exact coin with its symbol
 
     print("Rank: ", data[0])
     print("Name: ", data[1])
@@ -63,9 +56,9 @@ from src.scrapper import WebScrapper
 
 if __name__ == '__main__':
     newWebScrapper = WebScrapper()
-    query = "cardano"
+    search = "bitcoin"
     number_of_results = 10
-    newWebScrapper.search_for_google(query, number_of_results)
+    newWebScrapper.search_for_google(search, number_of_results)
 ```
 
 ## Contributing
