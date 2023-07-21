@@ -1,6 +1,4 @@
-# Web Scrapping using Python. A-2
-
-Contributed by Shaliyeva Nurzhamal, SE-2012
+# Web Scrapping using Python.
 
 ## Installation
 
